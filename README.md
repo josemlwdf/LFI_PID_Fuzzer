@@ -12,7 +12,6 @@ requests library (can be installed via pip install requests)``
 
 ## Usage
 
-``Make sure you have Python 3.x installed.``
 Install the requests library by running the following command:
 
     pip install requests
